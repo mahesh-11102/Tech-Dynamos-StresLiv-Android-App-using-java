@@ -16,9 +16,9 @@
  Yes, You read it right !!  
  Sounds interesting Isn't it ?
 
-   
+   <hr>
   <img src="https://user-images.githubusercontent.com/77436328/134780859-7f251f7f-1aaf-46c3-9333-078edb7c2756.gif" width="250" height="500">
- 
+   <hr>
 ## What's StresLiv ?
  - We have seen our beloved ones going through stressful moments once in their life, So our team came with an idea to make the user feel releive/ distress, while using our app.
  - In order to acheive this we have divided the section of app based on stress level
@@ -39,16 +39,14 @@
       - Ai ChatBot:  the user can share feeling to the AI powered chatbot who can crack jokes, can be a great friend and many more and gain the most loyal friend :wink:
       - Person to Person (Support Chat):  If the user don't want to chat with the AI Chatbot we have another way to interact i.e person to person chat, in this section there are list of highly trained assistant people Where there is a space for the user to share and fill the inclompletness feeling in himself. 
    
-    <hr>
     
    ## Working sample of our App
     
   -  `Presentation Link`
      ####  Here I'm sharing gist of our project's presentation Link:  https://www.canva.com/design/DAEnFIkpb8U/FPFjWSrZzVWgTSO_iHHlWQ/view?utm_content=DAEnFIkpb8U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
   
-  `Drive Link`
-  
-   #### Here I'm sharing Drive link of working sample of our app: https://drive.google.com/file/d/19Rr5q2USqltAZpWQADUsu0tS9RvkLVeK/view?usp=sharing
+  - `Drive Link`
+      #### Here I'm sharing Drive link of working sample of our app: https://drive.google.com/file/d/19Rr5q2USqltAZpWQADUsu0tS9RvkLVeK/view?usp=sharing
   
   
   
