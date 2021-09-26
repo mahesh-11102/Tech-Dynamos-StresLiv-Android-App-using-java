@@ -5,7 +5,7 @@
        Manognya Dasika
        Pratik Nagalgave
        
- ### What you do when you are feeling stressed ❓
+ ### What you do when you feel stressed ❓
  
  - I will definitely will share my thoughts and feeling to my beloved ones to relief my stress. 
  - well, I will read a book/blog.
@@ -14,12 +14,12 @@
  
  The above answers might be your one of the solution you guys may do. So, what if I say our App consists all of this ??
  Yes, You read it right !!  
- Sounds interesting Isn't it ?
+ Sounds interesting Isn't it ❔
 
-## What's StresLiv ?
+## What's StresLiv ❔ 🤩
  - We have seen our beloved ones going through stressful moments once in their life, we don't know when this `stress` is converted into `Depression` and they might take some irreversible steps, So our team came with an idea to make the user feel releive/ distress, while using our app.
  - In order to acheive this we have divided the section of app based on stress level
-    - Basic level
+    - Basic level  
     - Intermidiate Level
     - High Level
    
@@ -33,13 +33,13 @@
   
    
   - For Intermidiate level we have dedicated two sections they are:
-      -   Breathing App- We all know that practicing  meditation even half an hour a day gives releif to our mind, keeping in that in our mind we design this section where there is timer which tick for 30 second and has assistance audio included, which give instruction to user at every last 5 seconds.
-      -   Mood Music- In this section there is a music player where we can play music to change our mood.
+      -   `Breathing App`- We all know that practicing  meditation even half an hour a day gives releif to our mind, keeping in that in our mind we design this section where there is timer which tick for 30 second and has assistance audio included, which give instruction to user at every last 5 seconds.
+      -   `Mood Music`- In this section there is a music player where we can play music to change our mood.
   
 
   - According to our research , high level stress occurs when we feel an incompletness in ourselves or there is no one to share our thoughts and feeling with, so to overcome this we designed the last two section as follows:
-      - Ai ChatBot:  the user can share feeling to the AI powered chatbot who can crack jokes, can be a great friend ,may become the loyal friend and many more :wink:
-      - Person to Person (Support Chat):  If the user don't want to chat with the AI Chatbot we have created another way to get guidance or to share their thoughts and feelings i.e person to person assistance chat, in this section there are list of highly trained assistant people Where there is a space for the user to share and fill the inclompletness feeling in himself. 
+      - `Ai ChatBot`:  the user can share feeling to the AI powered chatbot who can crack jokes, can be a great friend ,may become the loyal friend and many more :wink:
+      - `Person to Person` (Assistance Chat):  If the user don't want to chat with the AI Chatbot we have created another way to get guidance or to share their thoughts and feelings i.e person to person assistance chat, in this section there are list of highly trained assistant people Where there is a space for the user to share and fill the inclompletness feeling in himself. 
    
     
    ## Working sample of our App
