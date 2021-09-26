@@ -74,4 +74,4 @@
       <img src="https://user-images.githubusercontent.com/77436328/134783704-5334b511-0c04-4be5-ac49-f84d351630f4.png" width="250" height="500"> 
       <img src="https://user-images.githubusercontent.com/77436328/134783560-6fd6cd45-cdd6-4518-9447-fbc1c2b0de4f.png" width="250" height="500">
    </p>
-   <pre>Person to Person assistance chat                     Ai ChatBot </pre>
+   <pre>Person to Person assistance chat            Ai ChatBot </pre>
