@@ -7,14 +7,13 @@
        
  ### What you do when you feel stressed ❓
  
- - I will definitely will share my thoughts and feeling to my beloved ones to relief my stress. 
+ - I will definitely will share my thoughts and feeling to my beloved ones to relieve my stress. 
  - well, I will read a book/blog.
  - Umm.. I will meditate for a while so that I can control my emotions.
  - I will listen to the music.
  
  The above answers might be your one of the solution you guys may do. So, what if I say our App consists all of this ??
- Yes, You read it right !!  
- Sounds interesting Isn't it 🤩
+ Yes, You read it right !! Sounds interesting Isn't it 🤩
 
 ## What's StresLiv ❔ 
  - We have seen our beloved ones going through stressful moments once in their life, we don't know when this `stress` is converted into `Depression` and they might take some irreversible steps, So our team came with an idea to make the user feel releive/ distress, while using our app.
@@ -58,18 +57,26 @@
    </p>  
    
    <hr>
-    <p>
+   
+   
+   ## Basic Level
+   <p> 
    <img src="https://user-images.githubusercontent.com/77436328/134783163-7bd4bce9-f3c6-42a4-8cc0-6746b1439281.png" width="250" height="500">
    <img src="https://user-images.githubusercontent.com/77436328/134783210-c7f56b99-0c03-49d7-96fa-55bdb57ebfce.png" width="250" height="500">
    </p>
    
    <hr>
+   
+   
+   ## Intermediate Level
    <p>
       <img src="https://user-images.githubusercontent.com/77436328/134783280-170f2a26-1d30-491b-8889-844866be2ad6.png" width="250" height="500">
    <img src="https://user-images.githubusercontent.com/77436328/134783834-d1913e98-769a-466d-8fc7-271576e7b393.png" width="250" height="500">
 
    </p>
    <hr>
+   
+   ## High Level
    <p>
       <img src="https://user-images.githubusercontent.com/77436328/134783704-5334b511-0c04-4be5-ac49-f84d351630f4.png" width="250" height="500"> 
       <img src="https://user-images.githubusercontent.com/77436328/134783560-6fd6cd45-cdd6-4518-9447-fbc1c2b0de4f.png" width="250" height="500">
