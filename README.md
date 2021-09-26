@@ -17,7 +17,7 @@
  Sounds interesting Isn't it ?
 
 ## What's StresLiv ?
- - We have seen our beloved ones going through stressful moments once in their life, So our team came with an idea to make the user feel releive/ distress, while using our app.
+ - We have seen our beloved ones going through stressful moments once in their life, after going through various stages from stress to they might have taken some irreversible steps, So our team came with an idea to make the user feel releive/ distress, while using our app.
  - In order to acheive this we have divided the section of app based on stress level
     - Basic level
     - Intermidiate Level
@@ -52,7 +52,7 @@
       #### Here I'm sharing Drive link of working sample of our app: https://drive.google.com/file/d/19Rr5q2USqltAZpWQADUsu0tS9RvkLVeK/view?usp=sharing
     <hr>
     
-  #### Here I'm sharing glimpse of our project
+  ## Here I'm sharing glimpse of our project
   <p>
     <img src="https://user-images.githubusercontent.com/77436328/134780859-7f251f7f-1aaf-46c3-9333-078edb7c2756.gif" width="250" height="500">
     <img src="https://user-images.githubusercontent.com/77436328/134783392-7d3a99af-a78a-432f-85b0-c992682129ab.gif" width="250" height="500">
