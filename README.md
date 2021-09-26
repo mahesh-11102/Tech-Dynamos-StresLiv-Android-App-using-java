@@ -1,9 +1,9 @@
 # Tech-Dynamos StresLiv Android App
    _*`Stack:`*_ Android Development Using Java.
    ### Team Members
-       Mahesh Dasika
-       Manognya Dasika
-       Pratik Nagalgave
+       Mahesh Dasika - mahesh.20bci7075@vitap.ac.in
+       Manognya Dasika - manognya.20bcr7053@vitap.ac.in
+       Pratik Nagalgave - baswaraj.20bcd7113@vitap.ac.in
        
  ### What you do when you feel stressed ❓
  
@@ -42,13 +42,15 @@
    
     
    ## Working sample of our App
-    
+  
   -  `Presentation Link`
      ####  Here I'm sharing gist of our project's presentation Link:  https://www.canva.com/design/DAEnFIkpb8U/FPFjWSrZzVWgTSO_iHHlWQ/view?utm_content=DAEnFIkpb8U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
   
   - `Drive Link`
       #### Here I'm sharing Drive link of working sample of our app: https://drive.google.com/file/d/19Rr5q2USqltAZpWQADUsu0tS9RvkLVeK/view?usp=sharing
-    <hr>
+  - `API Key`
+      #### Here I'm Sharing the API Key used to build AI chatbot: http://api.brainshop.ai/get?bid=158851&key=FzZDdzr2rhE1BK8n&uid=[uid]&msg=
+  <hr>
     
   ## Here I'm sharing glimpse of our project
   <p>
