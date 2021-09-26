@@ -14,9 +14,9 @@
  
  The above answers might be your one of the solution you guys may do. So, what if I say our App consists all of this ??
  Yes, You read it right !!  
- Sounds interesting Isn't it ❔
+ Sounds interesting Isn't it 🤩
 
-## What's StresLiv ❔ 🤩
+## What's StresLiv ❔ 
  - We have seen our beloved ones going through stressful moments once in their life, we don't know when this `stress` is converted into `Depression` and they might take some irreversible steps, So our team came with an idea to make the user feel releive/ distress, while using our app.
  - In order to acheive this we have divided the section of app based on stress level
     - Basic level  
