@@ -25,7 +25,7 @@
    
 ## How many Sections are their in our App ❓ 📱
   - There are about total 6 sections in our app and they are designed based on stress level `Basic, Intermidiate and High level` stress. 
-  - To acheive this we dedicated each section based on these most recommended and common activites they are `Reading,Listening and chat`.
+  - To acheive this we dedicated each section based on these most recommended and common activites we use to decrease the stress level, they are `Reading,Listening and chat`.
   
 
   
