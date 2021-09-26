@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tech_dynamosstresliv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tech-Dynamos stresLiv"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechDynamosStresliv"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+
+
+        <activity android:name=".MainPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Breath.startBreathing" />
+        <activity android:name=".Breath.MainBreath" />
+
+        <activity android:name=".Ps_to_ps.Activities.ChatActivity" />
+        <activity android:name=".Ps_to_ps.Activities.PsChatActivity" />
+        <activity android:name=".Ps_to_ps.Activities.SetupProfileActivity" />
+        <activity
+            android:name=".Ps_to_ps.Activities.OTPActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".Ps_to_ps.Activities.PhoneNumberActivity"
+            android:windowSoftInputMode="stateVisible" />
+
+
+        <activity android:name=".Ai_Chat.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

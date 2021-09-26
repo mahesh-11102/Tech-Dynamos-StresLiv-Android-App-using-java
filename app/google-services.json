@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780152601329",
+    "project_id": "stresschat-d410c",
+    "storage_bucket": "stresschat-d410c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780152601329:android:be853197c66f90bdda0750",
+        "android_client_info": {
+          "package_name": "com.example.tech_dynamosstresliv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780152601329-e8ug2b0j3c3qqd1ft7sq7v57seqdjhj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB34Oa5hmWzRqQ0qQmpEhtAlhVEV9ETmZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780152601329-e8ug2b0j3c3qqd1ft7sq7v57seqdjhj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
