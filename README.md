@@ -49,7 +49,7 @@
   - `Drive Link`
       #### Here I'm sharing Drive link of working sample of our app: https://drive.google.com/file/d/19Rr5q2USqltAZpWQADUsu0tS9RvkLVeK/view?usp=sharing
   - `API Key`
-      #### Here I'm Sharing the API Key used to build AI chatbot: http://api.brainshop.ai/get?bid=158851&key=FzZDdzr2rhE1BK8n&uid=[uid]&msg=
+      #### HereWe have used Brainshop AI API Key used to build AI chatbot:
   <hr>
     
   ## Here I'm sharing glimpse of our project
