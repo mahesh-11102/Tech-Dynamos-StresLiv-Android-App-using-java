@@ -2,7 +2,9 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
+        <item>@font/aclonica</item>
         <item>@font/aladin</item>
+        <item>@font/amarante</item>
         <item>@font/roboto_mono_thin</item>
     </array>
 </resources>

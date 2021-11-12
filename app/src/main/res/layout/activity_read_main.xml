@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/books" />
+            app:lottie_rawRes="@raw/book" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/blogs"
+            app:lottie_rawRes="@raw/blog"
             tools:layout_editor_absoluteX="24dp"
             tools:layout_editor_absoluteY="397dp" />
 

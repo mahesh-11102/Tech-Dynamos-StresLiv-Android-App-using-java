@@ -10,7 +10,7 @@
         android:id="@+id/Message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/sent_drawable"
+        android:background="#C8C6C6"
         android:padding="5dp"
         android:paddingLeft="15dp"
         android:paddingRight="10dp"

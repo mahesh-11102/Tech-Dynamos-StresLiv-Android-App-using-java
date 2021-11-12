@@ -10,6 +10,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.tech_dynamosstresliv.MainPageActivity;
+import com.example.tech_dynamosstresliv.R;
+
 public class MotivitionalBooks extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     String[] restArray2 = {"Go Motivate Yourself","Getting Motivated to Change ","Motivating Skills","Five Key Ingredients for Improving Student Motivation"};
@@ -33,7 +36,7 @@ public class MotivitionalBooks extends AppCompatActivity implements AdapterView.
         // Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
         if (i==0){
             Toast.makeText ( this, restArray2[i], Toast.LENGTH_SHORT ).show ();
-            Intent intent1 = new Intent ( MotivitionalBooks.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent1 = new Intent ( MotivitionalBooks.this, BlogView.class);
             intent1.putExtra ( "link","https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.dri.org/docs/default-source/committee/0240/go-motivate-yourself_ramos_201713e638570102663cbed7ff00009eb89a.pdf?sfvrsn=4" );
             startActivity ( intent1 );
 
@@ -41,23 +44,33 @@ public class MotivitionalBooks extends AppCompatActivity implements AdapterView.
         if (i==1){
             Toast.makeText ( this, restArray2[i], Toast.LENGTH_SHORT ).show ();
 
-            Intent intent = new Intent ( MotivitionalBooks.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivitionalBooks.this, BlogView.class);
             intent.putExtra ( "link","https://drive.google.com/viewerng/viewer?embedded=true&url=https://ibr.tcu.edu/wp-content/uploads/2013/09/TMA06Sept-mot.pdf" );
             startActivity ( intent );
         }
         if (i==2){
             Toast.makeText ( this, restArray2[i], Toast.LENGTH_SHORT ).show ();
 
-            Intent intent = new Intent ( MotivitionalBooks.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivitionalBooks.this,BlogView.class);
             intent.putExtra ( "link","https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.tutorialspoint.com/motivating_skills/motivating_skills_tutorial.pdf" );
             startActivity ( intent );
         }
         if (i==3){
             Toast.makeText ( this, restArray2[i], Toast.LENGTH_SHORT ).show ();
 
-            Intent intent = new Intent ( MotivitionalBooks.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivitionalBooks.this,BlogView.class);
             intent.putExtra ( "link","https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.aabri.com/manuscripts/11834.pdf" );
             startActivity ( intent );
         }
     }
+
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        Intent intent = new Intent ( MotivitionalBooks.this, MainPageActivity.class);
+        startActivity(intent);
+
+    }
+
 }

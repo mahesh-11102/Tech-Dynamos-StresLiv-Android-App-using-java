@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.tech_dynamosstresliv.MainPageActivity;
 import com.example.tech_dynamosstresliv.R;
 
 public class MainBreath extends AppCompatActivity {
@@ -23,5 +24,14 @@ Button btn;
                 startActivity ( intent );
             }
         } );
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent (MainBreath.this, MainPageActivity.class);
+        startActivity ( intent );
+
+
     }
 }

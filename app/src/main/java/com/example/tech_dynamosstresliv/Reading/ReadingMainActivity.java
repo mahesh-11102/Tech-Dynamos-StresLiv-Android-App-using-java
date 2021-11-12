@@ -7,6 +7,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.example.tech_dynamosstresliv.R;
+
 public class ReadingMainActivity extends AppCompatActivity {
 //Button books,blogs;
 CardView books,blogs;
@@ -19,7 +21,7 @@ CardView books,blogs;
    books.setOnClickListener ( new View.OnClickListener () {
        @Override
        public void onClick ( View view ) {
-           Intent int1 = new Intent (MainActivity.this,MotivitionalBooks.class);
+           Intent int1 = new Intent (ReadingMainActivity.this,MotivitionalBooks.class);
            startActivity ( int1 );
        }
    } );
@@ -28,7 +30,7 @@ CardView books,blogs;
         blogs.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick ( View view ) {
-                Intent int2 = new Intent (MainActivity.this,MotivationalBlogs.class);
+                Intent int2 = new Intent (ReadingMainActivity.this,MotivationalBlogs.class);
                 startActivity ( int2);
             }
         } );

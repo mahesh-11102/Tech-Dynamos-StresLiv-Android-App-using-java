@@ -5,20 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8CA1A5"
     tools:context=".Ai_Chat.MainActivity">
 
     <!--recycler view to display our chats-->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRVChats"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/idLLMessage" />
+        android:layout_above="@id/idLLMessage"
+        android:layout_marginBottom="0dp" />
 
     <LinearLayout
         android:id="@+id/idLLMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="#345B63"
         android:orientation="horizontal"
         android:weightSum="5">
 
@@ -28,7 +32,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:hint="Enter Message" />
+            android:hint="Enter Message"
+            android:textColor="@color/black" />
 
         <!--button to send message-->
         <ImageButton
@@ -37,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:background="@color/bot_back_color"
+            android:background="#11324D"
             android:src="@android:drawable/ic_menu_send"
             app:tint="@color/white" />
 

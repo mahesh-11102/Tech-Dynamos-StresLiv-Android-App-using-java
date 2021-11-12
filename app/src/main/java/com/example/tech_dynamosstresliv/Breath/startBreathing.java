@@ -11,7 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.tech_dynamosstresliv.MainPageActivity;
 import com.example.tech_dynamosstresliv.R;
+import com.example.tech_dynamosstresliv.Reading.MotivitionalBooks;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -21,7 +23,10 @@ public class startBreathing extends AppCompatActivity {
     public int seconds = 60;
     public int minutes = 0;
     int count;
+    Timer t;
     Button stop;
+    MediaPlayer mp1;
+    MediaPlayer mp2;
 
     @Override
     protected void onCreate ( Bundle savedInstanceState ) {
@@ -29,11 +34,11 @@ public class startBreathing extends AppCompatActivity {
         setContentView ( R.layout.activity_start_breathing );
         infoTV=(TextView )findViewById ( R.id.infoTV ) ;
 
-        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.breathin);
-        MediaPlayer mp2 = MediaPlayer.create(this, R.raw.breathout);
+         mp1 = MediaPlayer.create(this, R.raw.breathin);
+        mp2 = MediaPlayer.create(this, R.raw.breathout);
 
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         stop = (Button )findViewById ( R.id.stop ) ;
 
@@ -48,7 +53,9 @@ public class startBreathing extends AppCompatActivity {
         } );
 
 
-        Timer t = new Timer ();
+
+
+        t = new Timer ();
        count=1;
         //Set the schedule function and rate
         t.scheduleAtFixedRate ( new TimerTask () {
@@ -106,19 +113,23 @@ public class startBreathing extends AppCompatActivity {
 
         } , 0 , 1000 );
     }
+
+
+
+
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
+    public void onBackPressed() {
+        super.onBackPressed();
+        startBreathing.this.finish();
 
-                return true;
-        }
 
-        return super.onOptionsItemSelected(item);
-    }
+        t.cancel();
+        mp1.stop();
+        mp2.stop();
+        startBreathing.this.isDestroyed();
+        Intent intent = new Intent ( startBreathing.this, MainPageActivity.class);
+        startActivity(intent);
 
-    public boolean onCreateOptionsMenu( Menu menu) {
-        return true;
+
     }
 }

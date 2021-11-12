@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.tech_dynamosstresliv.R;
+
 public class MotivationalBlogs extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     String[] restArray = {"3 Reasons Why I Finally Stopped Being A Cynic","LIFEHow You’re Destroying Your Growth and What to Do Instead","What Is Dark Motivation and How Can I Use It to My Advantage?","5 Steps to Go From Breakdown to Breakthrough"};
@@ -18,7 +20,7 @@ public class MotivationalBlogs extends AppCompatActivity implements AdapterView.
     @Override
     protected void onCreate ( Bundle savedInstanceState ) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_motivationalblogs );
+        setContentView (R.layout.activity_motivationalblogs);
 
         ArrayAdapter<String> adpter = new ArrayAdapter<String> (this,R.layout.layout,restArray );
         ListView lv = (ListView)findViewById ( R.id.lview );
@@ -33,7 +35,7 @@ public class MotivationalBlogs extends AppCompatActivity implements AdapterView.
         // Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
         if (i==0){
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
-            Intent intent = new Intent ( MotivationalBlogs.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivationalBlogs.this,BlogView.class);
             intent.putExtra ( "link","https://www.pickthebrain.com/blog/3-reasons-why-i-finally-stopped-being-a-cynic/" );
             startActivity ( intent );
 
@@ -41,21 +43,21 @@ public class MotivationalBlogs extends AppCompatActivity implements AdapterView.
         if (i==1){
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
-            Intent intent = new Intent ( MotivationalBlogs.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivationalBlogs.this, BlogView.class);
             intent.putExtra ( "link","https://addicted2success.com/life/how-youre-destroying-your-growth-and-what-to-do-instead/" );
             startActivity ( intent );
         }
         if (i==2){
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
-            Intent intent = new Intent ( MotivationalBlogs.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivationalBlogs.this,BlogView.class);
             intent.putExtra ( "link","https://addicted2success.com/motivation/what-is-dark-motivation-and-how-can-i-use-it-to-my-advantage/" );
             startActivity ( intent );
         }
         if (i==3){
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
             Toast.makeText ( this, restArray[i], Toast.LENGTH_SHORT ).show ();
-            Intent intent = new Intent ( MotivationalBlogs.this, com.technopratik.readforrelaxation.BlogView.class);
+            Intent intent = new Intent ( MotivationalBlogs.this,BlogView.class);
             intent.putExtra ( "link","https://addicted2success.com/life/5-steps-to-go-from-breakdown-to-breakthrough/" );
             startActivity ( intent );
         }

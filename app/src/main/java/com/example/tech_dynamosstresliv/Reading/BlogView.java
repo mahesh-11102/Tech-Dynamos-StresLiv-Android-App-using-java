@@ -9,13 +9,16 @@ import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.tech_dynamosstresliv.MainPageActivity;
+import com.example.tech_dynamosstresliv.R;
+
 public class BlogView extends AppCompatActivity {
     private android.webkit.WebView mywebView;
 
     @Override
     protected void onCreate ( Bundle savedInstanceState ) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_blog_view );
+        setContentView (R.layout.activity_blog_view);
 
         Intent intent = getIntent ();
         String urls=intent.getStringExtra ( "link" );
@@ -25,7 +28,7 @@ public class BlogView extends AppCompatActivity {
         mywebView.loadUrl(urls);
         WebSettings webSettings = mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
     public boolean onOptionsItemSelected( MenuItem item){
         Intent myIntent = new Intent(getApplicationContext(), BlogView.class);
@@ -51,12 +54,10 @@ public class BlogView extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (mywebView.canGoBack()) {
-            mywebView.canGoBack();
-        } else {
-            Intent intent = new Intent (BlogView.this,MotivationalBlogs.class);
+
+            Intent intent = new Intent (BlogView.this, MainPageActivity.class);
             startActivity ( intent );
            // super.onBackPressed();
-        }
+
     }
 }

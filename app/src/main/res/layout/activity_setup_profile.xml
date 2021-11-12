@@ -4,18 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f2"
+    android:background="#F0E9D2"
     tools:context=".Ps_to_ps.Activities.SetupProfileActivity">
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageView"
-        android:layout_width="291dp"
-        android:layout_height="202dp"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/ic_user_chat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/phoneLbl"
@@ -85,4 +75,14 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="291dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/ic_user_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

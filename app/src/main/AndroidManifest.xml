@@ -14,13 +14,14 @@
         tools:replace="android:label">
 
 
-        <activity android:name=".MainPageActivity">
+        <activity android:name=".MainPageActivity"></activity>
+
+        <activity android:name=".loading">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
         <activity android:name=".Breath.startBreathing" />
         <activity android:name=".Breath.MainBreath" />
@@ -34,16 +35,17 @@
         <activity
             android:name=".Ps_to_ps.Activities.PhoneNumberActivity"
             android:windowSoftInputMode="stateVisible" />
-
-
         <activity android:name=".Ai_Chat.MainActivity" />
+        <activity android:name=".Reading.BlogView"/>
+        <activity android:name=".Reading.MotivationalBlogs"/>
+        <activity android:name=".Reading.MotivitionalBooks"/>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
